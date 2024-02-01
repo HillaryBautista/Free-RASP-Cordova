@@ -33,7 +33,7 @@ class TalsecPlugin : CordovaPlugin() {
     }
 
     private fun start(args: JSONArray?, callbackContext: CallbackContext?): Boolean {
-        val configJson = args?.optString(0, null) ?: java.run {
+        val configJson = args?.optString(0, null) ?: kotlin.run {
             callbackContext?.error("Missing config parameter in Talsec Native Plugin")
             return false
         }
