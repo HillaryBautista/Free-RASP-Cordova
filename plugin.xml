@@ -33,9 +33,9 @@
       </feature>
     </config-file>
 
-    <source-file src="src/android/TalsecPlugin.kt" target-dir="app/src/main/kotlin/com/aheaditec/talsec/cordova/"/>
-    <source-file src="src/android/TalsecThreatHandler.kt" target-dir="app/src/main/kotlin/com/aheaditec/talsec/cordova/"/>
-    <source-file src="src/android/Threat.kt" target-dir="app/src/main/kotlin/com/aheaditec/talsec/cordova/"/>
+    <source-file src="src/android/TalsecPlugin.kt" target-dir="app/src/main/java/com/aheaditec/talsec/cordova/"/>
+    <source-file src="src/android/TalsecThreatHandler.kt" target-dir="app/src/main/java/com/aheaditec/talsec/cordova/"/>
+    <source-file src="src/android/Threat.kt" target-dir="app/src/main/java/com/aheaditec/talsec/cordova/"/>
     <framework src="src/android/talsec.gradle" custom="true" type="gradleReference" />
   </platform>
   
